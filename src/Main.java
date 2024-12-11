@@ -1,15 +1,24 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        ShareNumber shareNumber = new ShareNumber();
+        shareNumber.elements(new int[]{100, 250, 45, 85} , new int[] {25, 250, 45, 1, 13});
+
+
+
+
+
+
+
+//        UniqueWord uniqueWord = new UniqueWord();
+//        uniqueWord.uniqueWord("Salam necesen sen necesen Salam soruwuram");
+//        Sum sum = new Sum();
+//        System.out.println( sum.calculateSum(new Integer[]{8,9,15, 20,40}));
+        EvenOdd evenOd = new EvenOdd();
+        evenOd.calculateNumbers(new Integer[]{1,3,5,6,8,10,7});
+
+
     }
+
+
 }
